@@ -8,7 +8,7 @@ class Song
 
   extend Memorable
   extend Findable
-  extend Paramable
+  include Paramable
 
   def initialize
     @@all << self
